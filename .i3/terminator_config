@@ -1,0 +1,26 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#222222"
+    background_darkness = 0.87
+    background_image = None
+    background_type = transparent
+    foreground_color = "#1bb76e"
+    show_titlebar = False
+    use_system_font = False
+  [[term_profile]]
+    background_color = "#222222"
+    background_darkness = 0.93
+    background_image = None
+    background_type = transparent
+    foreground_color = "#1bb76e"
